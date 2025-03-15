@@ -170,6 +170,10 @@ nav ul li a.active {
 
 /*contatos */
 
+.h1-contato {
+  opacity: 0.5;
+}
+
 .form-container {
   border-radius: 8px;
   width: 300px;
