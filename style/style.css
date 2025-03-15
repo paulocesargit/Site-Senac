@@ -226,6 +226,11 @@ nav ul li a.active {
   background-color: #218838;
 }
 
+.bordar-laranja {
+  padding: 10px;
+  border-bottom: 10px solid orange;
+}
+
 /* footer */
 
 footer {
