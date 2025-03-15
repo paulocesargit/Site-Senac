@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Senac - Cursos</title>
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          class="logo-senac"
+          src="../assets/logo/logo_senac.jpg"
+          alt="Logo Senac"
+        />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="./cursos.html">CURSOS</a></li>
+          <li><a href="./contato.html" class="active">CONTATO</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="banner">
+      <h1>CONTATO</h1>
+    </section>
+
+    <div class="form-container">
+      <h2 class="form-title">Formulário de Contato</h2>
+      <form class="form" method="POST">
+        <label class="form-label" for="nome">Nome:</label>
+        <input class="form-input" type="text" id="nome" name="nome" required />
+
+        <label class="form-label" for="email">Email:</label>
+        <input
+          class="form-input"
+          type="email"
+          id="email"
+          name="email"
+          required
+        />
+
+        <label class="form-label" for="mensagem">Mensagem:</label>
+        <textarea
+          class="form-textarea"
+          id="mensagem"
+          name="mensagem"
+          required
+        ></textarea>
+
+        <button class="form-button" type="submit">Enviar</button>
+      </form>
+    </div>
+    <footer>
+      <img src="../assets/logo/logo_senac.jpg" alt="Senac" />
+      <p>© Todos os Direitos Reservados - 2022.</p>
+    </footer>
+  </body>
+</html>
