@@ -245,33 +245,6 @@ footer img {
   margin: 0 auto 10px;
 }
 
-@media (max-width: 768px) {
-  header {
-    flex-direction: row;
-    padding: 10px 20px;
-  }
-
-  header img {
-    margin-left: 0;
-    margin-bottom: 0;
-  }
-
-  nav ul {
-    flex-direction: row;
-    gap: 20px;
-    margin-right: 0;
-  }
-
-  .banner h1 {
-    font-size: 40px;
-  }
-
-  .banner {
-    height: 250px;
-    font-size: 2rem;
-  }
-}
-
 @media (max-width: 480px) {
   nav ul li a {
     font-size: 14px;
@@ -302,17 +275,10 @@ footer img {
 
   nav ul {
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
+    gap: 20px;
+    margin-right: 0;
   }
 
-  .cursos {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 480px) {
   .cursos {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -320,5 +286,13 @@ footer img {
   .banner {
     height: 200px;
     font-size: 1.5rem;
+  }
+
+  .form-container {
+    width: 100%;
+    padding: 10px;
+  }
+  .form-button {
+    width: 100%;
   }
 }
