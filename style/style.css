@@ -261,6 +261,15 @@ footer img {
     gap: 20px;
     margin-right: 0;
   }
+
+  .banner h1 {
+    font-size: 40px;
+  }
+
+  .banner {
+    height: 250px;
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -276,5 +285,40 @@ footer img {
   nav ul {
     flex-direction: column;
     gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  header img {
+    margin-bottom: 10px;
+  }
+
+  nav ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .cursos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .cursos {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .banner {
+    height: 200px;
+    font-size: 1.5rem;
   }
 }
